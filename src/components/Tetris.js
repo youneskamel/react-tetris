@@ -3,7 +3,8 @@ import Stage from'./Stage'
 import StartButton from "./StartButton"
 import Display from './Display'
 import { StyledTetrisWrapper } from './styles/StyledTetris'
-import { StyledTetris } from './styles/StyledTetris'
+import { StyledTetris} from './styles/StyledTetris'
+
 
 import {createStage} from '../gameHelpers'
 
@@ -27,5 +28,7 @@ const Tetris = () => {
     )
 
 }
+
+// minute 47:16
 
 export default Tetris
